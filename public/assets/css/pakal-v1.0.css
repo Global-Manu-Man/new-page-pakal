@@ -1,0 +1,479 @@
+.kanit-thin {font-family: "Kanit", sans-serif;font-weight: 100;font-style: normal;}
+.kanit-extralight {font-family: "Kanit", sans-serif;font-weight: 200;font-style: normal;}
+.kanit-light {font-family: "Kanit", sans-serif;font-weight: 300;font-style: normal;}
+.kanit-regular {font-family: "Kanit", sans-serif;font-weight: 400;font-style: normal;}
+.kanit-medium {font-family: "Kanit", sans-serif;font-weight: 500;font-style: normal;}
+.kanit-semibold {font-family: "Kanit", sans-serif;font-weight: 600;font-style: normal;}
+.kanit-bold {font-family: "Kanit", sans-serif;font-weight: 700;font-style: normal;}
+.kanit-extrabold {font-family: "Kanit", sans-serif;font-weight: 800;font-style: normal;}
+.kanit-black {font-family: "Kanit", sans-serif;font-weight: 900;font-style: normal;}
+.kanit-thin-italic {font-family: "Kanit", sans-serif;font-weight: 100;font-style: italic;}
+.kanit-extralight-italic {font-family: "Kanit", sans-serif;font-weight: 200;font-style: italic;}  
+.kanit-light-italic {font-family: "Kanit", sans-serif;font-weight: 300;font-style: italic;} 
+.kanit-regular-italic {font-family: "Kanit", sans-serif;font-weight: 400;font-style: italic;} 
+.kanit-medium-italic {font-family: "Kanit", sans-serif;font-weight: 500;font-style: italic;} 
+.kanit-semibold-italic {font-family: "Kanit", sans-serif;font-weight: 600;font-style: italic;} 
+.kanit-bold-italic {font-family: "Kanit", sans-serif;font-weight: 700;font-style: italic;} 
+.kanit-extrabold-italic {font-family: "Kanit", sans-serif;font-weight: 800;font-style: italic;} 
+.kanit-black-italic {font-family: "Kanit", sans-serif;font-weight: 900;font-style: italic;}
+
+.--header-desktop .--div-contenedor .--1 .--div-img img {
+    height: 20px;padding-left: 8px;
+}
+.--header-mobile img {
+    height: 20px;
+}
+.--row-miniaturas .--miniaturas .--6-items .--bandera-pais .--pais {
+    margin-left: 0px;
+}
+.--te-digitalizamos {
+    margin-bottom: 16px;
+}
+.--te-digitalizamos li {
+    color: #dfdfdf;font-size: 16px;background: transparent;font-family: 'Inter', sans-serif;
+}
+#--s2 .--img {
+    border-radius: 8px;max-height: 380px;width: 100%;object-fit: cover;object-position: center;
+}
+.--textoh2 {
+    color: #fff;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 900;
+    line-height: 1;
+    letter-spacing: -1px;
+    font-size: 36px;
+    text-align: center;
+}
+
+.---servicios .---card {
+    display: flex;align-items: center;background: #adadad17;height: 100%;
+}
+.---servicios .---card .--div-img img {
+    min-width: 64px;max-width: 64px;
+    height: 100%;width: 100%;object-fit: cover;object-position: center;min-height: 186px;
+}
+.---servicios .---card .--textos {
+    padding: 12px;
+    padding-left: 16px;
+}
+.---servicios .---card .--textos .--titulo {
+    color: #fff;font-family: 'DM Sans';font-style: normal;font-weight: 900;line-height: 1;letter-spacing: -1px;font-size: 18px;margin-bottom: 8px;
+}
+.---servicios .---card .--textos .--p {
+    color: #acacac;font-size: 15px;background: transparent;font-family: 'Inter', sans-serif;line-height: 1.35;margin-bottom: 0;
+}
+
+.---por-que-elegirnos .--maintext {
+    color: #dfdfdf;background: transparent;font-family: 'Inter', sans-serif;font-size: 17px;
+    display: flex;align-items: center;
+}
+.---por-que-elegirnos .--maintext svg {
+    height: 17px;color: #cabf10;margin-right: 6px;
+}
+.---por-que-elegirnos .---card svg {
+    margin-bottom: 16px;
+}
+.---por-que-elegirnos .---card {
+    background: #adadad17;height: 100%;
+    padding: 24px 20px 8px;
+}
+.---por-que-elegirnos .---card .--textos .--titulo {
+    color: #fff;font-family: 'DM Sans';font-style: normal;font-weight: 900;line-height: 1;letter-spacing: -1px;font-size: 18px;margin-bottom: 8px;
+}
+.---por-que-elegirnos .---card .--textos .--p {
+    color: #acacac;font-size: 15px;background: transparent;font-family: 'Inter', sans-serif;line-height: 1.35;
+}
+.---por-que-elegirnos .---card.--gradiente1 {
+    background-color: rgb(70, 23, 0);
+    background-image: linear-gradient(148.8deg, rgba(8, 8, 8, 0.94) 20.02%, rgba(68, 1, 26, 0.8) 82.31%), var(--bg-image), none;
+}
+.---por-que-elegirnos .---card.--gradiente2 {
+    background-color: rgb(2, 0, 70);
+    background-image: linear-gradient(148.8deg, rgba(8, 8, 8, 0.94) 20.02%, rgba(3, 1, 68, 0.8) 82.31%), var(--bg-image), none;
+}
+.---por-que-elegirnos .---card.--gradiente3 {
+    background-color: rgb(55, 0, 70);
+    background-image: linear-gradient(148.8deg, rgba(8, 8, 8, 0.94) 20.02%, rgba(41, 1, 68, 0.8) 82.31%), var(--bg-image), none;
+}
+.---por-que-elegirnos .---card.--gradiente4 {
+    background-color: rgb(70, 49, 0);
+    background-image: linear-gradient(148.8deg, rgba(8, 8, 8, 0.94) 20.02%, rgba(68, 48, 1, 0.8) 82.31%), var(--bg-image), none;
+}
+
+.---proyectos a {
+    color: #fff;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 900;
+    line-height: 1;
+    letter-spacing: -1px;
+    font-size: 18px;
+    display: flex;align-items: center;width: 100%;
+    padding: 12px 8px 10px;
+    margin-bottom: 8px;
+
+    font-size: 17px;line-height: 1;font-family: 'Instrument Sans', sans-serif;font-optical-sizing: auto;font-weight: 600;font-style: normal;letter-spacing: 0;
+}
+.---proyectos a svg {
+    height: 16px;color: #fff;margin-left: 5px;
+}
+.---proyectos img {
+    min-height: 200px;
+    max-height: 200px;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.--resenas .--estrellas {
+    margin-bottom: 12px;
+}
+.--resenas .--estrellas svg {
+    height: 20px;
+    fill: #ffbb50;
+}
+.--resenas .--p {
+    color: #acacac;
+    font-size: 15px;
+    background: transparent;
+    font-family: 'Inter', sans-serif;
+    line-height: 1.35;
+    margin-bottom: 16px;
+}
+
+.--page-precios .heading-color {
+    border-radius: 2px;
+    background: #0e0e0eba;
+}
+.--page-precios svg.--whatsapp {
+    color: inherit;height: 15px;margin-right: 5px;
+}
+.--page-precios .--p {
+    color: #dfdfdf;color: #9396a3;
+    font-size: 14px;
+    background: transparent;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+}
+
+.--1erboton {
+    padding: 10px 16px 10px 18px;display: inline-flex;align-items: center;
+}
+.--1erboton .--whatsapp {
+    height: 16px;color: #fff;margin-right: 6px;
+}
+.--1erboton:hover .--whatsapp {
+    color: inherit;
+}
+
+
+#--fases .--col {
+    margin-bottom: 12px;
+}
+#--fases .--fase-title {
+    font-family: "Instrument Sans", sans-serif;font-weight: 700;font-size: 18px;display: block;color: #2275f5;letter-spacing: -0.5px;
+    line-height: 1;margin-bottom: 11px;margin-left: 6px;display: flex;align-items: center;
+}
+#--fases .--fase-title svg {
+    color: #0c49ff;width: 20px;margin-right: 5px;
+}
+#--fases .---item {
+    background: #17181b;padding: 14px 14px 14px 14px;border-radius: 4px;height: 100%;align-items: start;
+}
+#--fases .---item .--textosuperior {
+    font-family: "Instrument Sans", sans-serif;font-weight: 700;line-height: 1.25;font-size: 2.75rem;color: #a0a3aa;
+    font-size: 2.35rem;font-size: 18px;display: block;
+    color: #e3e3e3;letter-spacing: -0.5px;line-height: 1.2;margin-bottom: 6px;
+}
+#--fases .---item .--textoinferior {
+    display: block;color: #737980;font-size: 13px;background: transparent;font-family: 'Inter', sans-serif;line-height: 1.35;margin-bottom: 3px;
+}
+#--fases .---item svg {
+    color: #7e838d;min-width: 24px;width: 24px;margin-right: 10px;margin-top: 2px;
+}
+#--fases .---item {
+    transition: transform 0.3s ease-in-out;
+}
+#--fases .---item:hover {
+    position: relative;top: -4px;transition: transform 0.3s ease-in-out;
+}
+
+#--tecnologias .--supertitle {
+    font-family: "Instrument Sans", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: #ff174e;color: #d9d9d9;
+    letter-spacing: -0.5px;
+    line-height: 1;
+    margin-bottom: 16px;
+    display: flex;align-items: center;
+}
+#--tecnologias .--supertitle svg {
+    color: inherit;width: 18px;height: 18px;margin-right: 6px;
+}
+#--tecnologias .---cards {
+    display: flex;cursor: default;
+}
+#--tecnologias .---card {
+    width: 100%;background: #ff993f;padding: 20px 12px;
+    display: flex;flex-direction: column;justify-content: space-between;
+
+    background-position: 0% 0%, 0% 0%, 0% 0%;
+    background-attachment: scroll, scroll, scroll;
+    background-origin: padding-box, padding-box, padding-box;
+    background-clip: border-box, border-box, border-box;
+    background-blend-mode: overlay, normal, normal;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: bottom;
+    background-color: rgba(19, 19, 19, 0.6) !important;
+    background-image: linear-gradient(90.0deg, rgba(77, 77, 77, 0.8) 30.02%, rgb(61, 61, 61) 80.31%), url(assets/img/pattern02.png), none;
+    background-color: rgba(19, 19, 19, 0.6) !important;
+    background-image: linear-gradient(90.0deg, rgba(50, 50, 59, 0.8) 30.02%, rgb(8, 9, 17) 80.31%), url(assets/img/pattern02.png), none;
+}
+#--tecnologias .---card.--1 {
+    background-position: 0% 0%, 0% 0%, 0% 0%;
+    background-attachment: scroll, scroll, scroll;
+    background-origin: padding-box, padding-box, padding-box;
+    background-clip: border-box, border-box, border-box;
+    background-blend-mode: overlay, normal, normal;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: bottom;
+    background-color: rgba(71, 7, 19, 0.6) !important;
+    background-image: linear-gradient(90.0deg, rgba(255, 84, 84, 0.8) 30.02%, rgb(255, 109, 116) 80.31%), url(assets/img/pattern02.png), none;
+}
+#--tecnologias .---card.--2 {
+    background-position: 0% 0%, 0% 0%, 0% 0%;
+    background-attachment: scroll, scroll, scroll;
+    background-origin: padding-box, padding-box, padding-box;
+    background-clip: border-box, border-box, border-box;
+    background-blend-mode: overlay, normal, normal;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: bottom;
+    background-color: rgba(71, 13, 7, 0.6) !important;
+    background-image: linear-gradient(90.0deg, rgba(255, 172, 84, 0.8) 30.02%, rgb(255, 191, 109) 80.31%), url(assets/img/pattern02.png), none;
+}
+#--tecnologias .---card.--3 {
+    background-position: 0% 0%, 0% 0%, 0% 0%;
+    background-attachment: scroll, scroll, scroll;
+    background-origin: padding-box, padding-box, padding-box;
+    background-clip: border-box, border-box, border-box;
+    background-blend-mode: overlay, normal, normal;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: bottom;
+    background-color: rgba(7, 71, 32, 0.6) !important;
+    background-image: linear-gradient(90.0deg, rgba(255, 172, 84, 0.8) 30.02%, rgb(255, 191, 109) 80.31%), url(assets/img/pattern02.png), none;
+}
+#--tecnologias .---card.--4 {
+    background-position: 0% 0%, 0% 0%, 0% 0%;
+    background-attachment: scroll, scroll, scroll;
+    background-origin: padding-box, padding-box, padding-box;
+    background-clip: border-box, border-box, border-box;
+    background-blend-mode: overlay, normal, normal;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: bottom;
+    background-color: rgba(7, 29, 71, 0.6) !important;
+    background-image: linear-gradient(90.0deg, rgba(84, 159, 255, 0.8) 30.02%, rgb(109, 111, 255) 80.31%), url(assets/img/pattern02.png), none;
+}
+#--tecnologias .---card.--5 {
+    background-position: 0% 0%, 0% 0%, 0% 0%;
+    background-attachment: scroll, scroll, scroll;
+    background-origin: padding-box, padding-box, padding-box;
+    background-clip: border-box, border-box, border-box;
+    background-blend-mode: overlay, normal, normal;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: bottom;
+    background-color: rgba(60, 7, 71, 0.6) !important;
+    background-image: linear-gradient(90.0deg, rgba(234, 84, 255, 0.8) 30.02%, rgb(255, 109, 239) 80.31%), url(assets/img/pattern02.png), none;
+}
+#--tecnologias .---card.--6 {
+    background-position: 0% 0%, 0% 0%, 0% 0%;
+    background-attachment: scroll, scroll, scroll;
+    background-origin: padding-box, padding-box, padding-box;
+    background-clip: border-box, border-box, border-box;
+    background-blend-mode: overlay, normal, normal;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: bottom;
+    background-color: rgba(7, 71, 59, 0.6) !important;
+    background-image: linear-gradient(90.0deg, rgba(4, 162, 155, 0.8) 30.02%, rgb(13, 189, 140) 80.31%), url(assets/img/pattern02.png), none;
+}
+#--tecnologias .---card.--7 {
+    background-position: 0% 0%, 0% 0%, 0% 0%;
+      background-position-y: 0%, 0%, 0%;
+    background-attachment: scroll, scroll, scroll;
+    background-origin: padding-box, padding-box, padding-box;
+    background-clip: border-box, border-box, border-box;
+    background-blend-mode: overlay, normal, normal;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: bottom;
+    background-color: rgba(19, 19, 19, 0.6) !important;
+    background-image: linear-gradient(90.0deg, rgba(77, 77, 77, 0.8) 30.02%, rgb(61, 61, 61) 80.31%), url(assets/img/pattern02.png), none;
+}
+
+#--tecnologias .---card li {
+    display: block;color: #553314;font-size: 13px;font-family: 'Inter', sans-serif;line-height: 1.55;color: #fff;
+}
+#--tecnologias .---card .---bottom {
+    display: flex;align-items: center;justify-content: space-between;margin-top: 16px;
+}
+#--tecnologias .---card .---bottom .---title {
+    display: inline-block;background: #fff;padding: 6px 11px;color: #000;font-size: 13px;font-family: 'Inter', sans-serif;
+    line-height: 1.55;border-radius: 4px;
+}
+#--tecnologias .---card .---bottom .---iconos svg {
+    width: 24px !important;height: 24px !important;color: #fff;margin-left: 4px;
+}
+
+
+#--final .--supertitle {
+    font-family: "Instrument Sans", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: #ff174e;color: #d9d9d9;
+    letter-spacing: -0.5px;
+    line-height: 1;
+    margin-bottom: 16px;margin-bottom: 6px;
+    display: flex;align-items: center;
+}
+#--final .--supertitle svg {
+    color: inherit;width: 18px;height: 18px;margin-right: 6px;
+    margin-left: 6px;rotate: 90deg;
+}
+#--final .---cards {
+    display: flex;cursor: default;
+}
+#--final .---card {
+    width: 100%;background: #1b1a19;padding: 20px 12px;
+    display: flex;flex-direction: column;justify-content: space-between;
+
+    background-position: 0% 0%, 0% 0%, 0% 0%;
+    background-attachment: scroll, scroll, scroll;
+    background-origin: padding-box, padding-box, padding-box;
+    background-clip: border-box, border-box, border-box;
+    background-blend-mode: overlay, normal, normal;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: bottom;
+    background-color: rgba(19, 19, 19, 0.6) !important;
+    background-image: linear-gradient(90.0deg, rgba(77, 77, 77, 0.8) 30.02%, rgb(61, 61, 61) 80.31%), url(assets/img/pattern02.png), none;
+    background-color: rgba(19, 19, 19, 0.6) !important;
+    background-image: linear-gradient(90.0deg, rgba(50, 50, 59, 0.8) 30.02%, rgb(8, 9, 17) 80.31%), url(assets/img/pattern02.png), none;
+
+    min-height: 180px;
+}
+#--final .---card ul {
+    color: #737980;color: #fff;font-size: 13px;background: transparent;font-family: 'Inter', sans-serif;line-height: 1.65;
+}
+#--final .---card.---whatsapp {
+    background-color: rgba(19, 19, 19, 0.6) !important;
+    background-image: linear-gradient(90.0deg, rgba(12, 53, 34, 0.8) 30.02%, rgb(5, 56, 30) 80.31%), url(assets/img/pattern02.png), none;
+    background-color: rgba(0, 146, 98, 0.6) !important;
+    background-image: linear-gradient(90.0deg, rgba(7, 165, 47, 0.8) 30.02%, rgb(0, 145, 84) 80.31%), url(assets/img/pattern02.png), none;
+    background-color: rgba(9, 38, 28, 0.85) !important;
+    background-color: rgba(7, 71, 59, 0.6) !important;
+    background-image: linear-gradient(90.0deg, rgba(4, 162, 155, 0.8) 30.02%, rgb(13, 189, 140) 80.31%), url(assets/img/pattern02.png), none;
+}
+#--final .---card.---telegram {
+    background-color: rgba(19, 19, 19, 0.6) !important;
+    background-image: linear-gradient(90.0deg, rgba(12, 40, 53, 0.8) 30.02%, rgb(5, 30, 56) 80.31%), url(assets/img/pattern02.png), none;
+    background-color: rgba(0, 50, 146, 0.6) !important;
+    background-image: linear-gradient(90.0deg, rgba(84, 159, 255, 0.8) 30.02%, rgb(109, 111, 255) 80.31%), url(assets/img/pattern02.png), none;
+    background-color: rgba(2, 15, 40, 0.85) !important;
+    background-color: rgba(7, 29, 71, 0.6) !important;
+    background-image: linear-gradient(90.0deg, rgba(84, 159, 255, 0.8) 30.02%, rgb(109, 111, 255) 80.31%), url(assets/img/pattern02.png), none;
+}
+#--final .---card.---formulario {
+    background-color: rgba(51, 7, 71, 0.6) !important;
+    background-image: linear-gradient(90.0deg, rgba(202, 84, 255, 0.8) 30.02%, rgb(216, 109, 255) 80.31%), url(assets/img/pattern02.png), none;
+}
+#--final .--p {
+    color: #9396a3;
+    font-size: 14px;
+    background: transparent;
+    font-family: 'Inter', sans-serif;
+}
+#--final svg {
+    height: 25px;color: #34363a;color: #ffffff6e;
+}
+
+
+
+.---footer {
+    display: block;color: #737980;font-size: 13px;background: transparent;font-family: 'Inter', sans-serif;line-height: 1.35;
+}
+.---footer .---x {
+    display: flex;justify-content: space-between;
+}
+
+.--header-desktop .--div-contenedor .--1 .--div-img img {height: 40px;}
+.--header-mobile img {height: 40px;}
+
+
+/* -------------
+------------------------------------------------------------------------------------
+  MEDIAS QUERIES
+  -----------------------------------------------------------*/
+/* XL */
+@media (min-width: 1200px){
+    #--a1 h1 {font-size: 58px;}
+    .--row-miniaturas.--home-miniaturas .--6-items {min-width: 16%;max-width: 16%;}
+    .--page-precios .table td.--0,
+    .--page-precios .table td.--1,
+    .--page-precios .table td.--2,
+    .--page-precios .table td.--3 {min-width: 248px;}
+    #--fases .--col {margin-bottom: 12px;padding: 0px 8px;}
+    #--tecnologias .---card {width: 33.3%;width: 50%;}
+    #--final .---card {min-height: 136px;}
+    .---footer .---x {margin-bottom: 21px;}
+}
+/* LG */
+@media (min-width: 992px) and (max-width: 1200px){
+    .--page-precios .table td.--0,
+    .--page-precios .table td.--1,
+    .--page-precios .table td.--2,
+    .--page-precios .table td.--3 {min-width: 248px;}
+    #--fases .--col {padding: 0 6px;}
+    #--final .---card {min-height: 136px;}
+    .---footer .---x {margin-bottom: 21px;}
+}
+/* MD */
+@media (min-width: 768px) and (max-width: 992px){
+    #--tecnologias .---card .---bottom .---title {display: none;}
+    #--fases .--col {padding: 0 6px;}
+    #--final .---card {min-height: 136px;}
+    .---footer .---x {margin-bottom: 21px;}
+}
+/* SM */
+@media (min-width: 576px) and (max-width: 768px){
+    #--tecnologias .---cards {display: block;}
+    #--tecnologias .---card {width: 100%;}
+    #--final .---card {min-height: 136px;}
+    .---footer .---x {flex-wrap: wrap;justify-content: center;}
+    .---footer .---x .---1 {margin-bottom: 4px;width: 100%;}
+    .---footer .---x .---2 {margin-bottom: 28px;width: 100%;}
+}
+/* XS */
+@media (min-width: 0px) and (max-width: 576px) {
+    .--main-home #--a1 h1 {max-width: 300px;}
+    .--row-miniaturas .--miniaturas .--6-items img {height: 160px;}
+    .--row-miniaturas .--miniaturas .--6-items {padding: 6px;min-width: 40%;max-width: 40%;}
+    .--textoh2 {font-size: 24px;}
+    .---servicios .---card .--textos .--p {font-size: 14.5px;}
+    .---servicios .---card .--div-img img {min-width: 56px;max-width: 56px;min-height: 190px;}
+    #--s2 .--img {max-height: 220px;margin-top: 8px;padding: 0 !important;border-radius: 4px;}
+    .--page-precios .heading-color {min-width: 200px;max-width: 200px;}
+    #--tecnologias .---cards {flex-wrap: wrap;}
+    #--final svg {color: #ffffff80;}
+    #--final .---card.---formulario {min-height: 144px;}
+    .---footer .---x {flex-wrap: wrap;justify-content: center;}
+    .---footer .---x .---1 {margin-bottom: 4px;}
+    .---footer .---x .---2 {margin-bottom: 28px;}
+}
