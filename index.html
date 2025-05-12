@@ -1115,113 +1115,124 @@
 
       
       <!-- -----------------------------------------------------------------------------
-    -- Contacto
+    -- Contacto y Footer
     -- --------------------------------------------------------------------------- -->
-    <section id="__contacto" class="contact-section animated-form">
+    <footer id="__contacto" class="modern-footer">
+      <div class="footer-particles" id="footer-particles"></div>
       <div class="container">
-        <div class="row">
-          <div class="col-lg-6 mb-5 mb-lg-0">
-            <h2 class="contact-title">¿Listo para impulsar tu negocio?</h2>
-            <p class="contact-subtitle">Completa el formulario y nos pondremos en contacto contigo a la brevedad.</p>
-            
-            <form id="contactForm" class="contact-form" action="https://formspree.io/f/mwkawqzq" method="post">
-              <div class="form-group form-field-animation">
-                <label for="name">Nombre completo</label>
-                <input type="text" class="form-control" id="name" name="nombre" required>
-                <span class="focus-border"></span>
+        <div class="footer-top">
+          <div class="row">
+            <div class="col-lg-5 mb-5 mb-lg-0">
+              <div class="footer-contact">
+                <h3 class="footer-title">¿Listo para transformar tu presencia digital?</h3>
+                <p class="footer-subtitle">Completa el formulario y nos pondremos en contacto contigo en menos de 24 horas.</p>
+                <div class="contact-info">
+                  <div class="contact-item">
+                    <div class="contact-icon">
+                      <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <div class="contact-text">
+                      <span>Ciudad de México, México</span>
+                    </div>
+                  </div>
+                  <div class="contact-item">
+                    <div class="contact-icon">
+                      <i class="fas fa-envelope"></i>
+                    </div>
+                    <div class="contact-text">
+                      <a href="mailto:contacto@pakal.cloud">contacto@pakal.cloud</a>
+                    </div>
+                  </div>
+                  <div class="contact-item">
+                    <div class="contact-icon">
+                      <i class="fas fa-phone-alt"></i>
+                    </div>
+                    <div class="contact-text">
+                      <a href="tel:+525568711608">+52 55 6871 1608</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="social-links">
+                  <a href="https://www.facebook.com/profile.php?id=100089075147230" target="_blank" class="social-link">
+                    <i class="fab fa-facebook-f"></i>
+                  </a>
+                  <a href="https://www.instagram.com/technologies_solutions_pakal" target="_blank" class="social-link">
+                    <i class="fab fa-instagram"></i>
+                  </a>
+                  <a href="https://linkedin.com/" target="_blank" class="social-link">
+                    <i class="fab fa-linkedin-in"></i>
+                  </a>
+                </div>
               </div>
-              
-              <div class="form-group form-field-animation">
-                <label for="email">Correo electrónico</label>
-                <input type="email" class="form-control" id="email" name="email" required>
-                <span class="focus-border"></span>
+            </div>
+            <div class="col-lg-7">
+              <div class="contact-form-container">
+                <form id="contactForm" class="contact-form" action="https://formspree.io/f/mwkawqzq" method="post">
+                  <div class="row">
+                    <div class="col-md-6 form-group">
+                      <label for="name">Nombre</label>
+                      <input type="text" id="name" name="nombre" class="form-control" required>
+                    </div>
+                    <div class="col-md-6 form-group">
+                      <label for="email">Correo electrónico</label>
+                      <input type="email" id="email" name="email" class="form-control" required>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-6 form-group">
+                      <label for="phone">Teléfono</label>
+                      <input type="tel" id="phone" name="phone" class="form-control">
+                    </div>
+                    <div class="col-md-6 form-group">
+                      <label for="company">Empresa</label>
+                      <input type="text" id="company" name="company" class="form-control">
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label for="subject">Asunto</label>
+                    <input type="text" id="subject" name="subject" class="form-control" required>
+                  </div>
+                  <div class="form-group">
+                    <label for="message">Mensaje</label>
+                    <textarea id="message" name="mensaje" rows="5" class="form-control" required></textarea>
+                  </div>
+                  <div class="form-group form-check">
+                    <input type="checkbox" class="form-check-input" id="privacy" required>
+                    <label class="form-check-label" for="privacy">Acepto la <a href="#" class="privacy-link">política de privacidad</a></label>
+                  </div>
+                  <button type="submit" class="submit-button">
+                    <span>Enviar mensaje</span>
+                    <i class="fas fa-paper-plane"></i>
+                  </button>
+                </form>
               </div>
-              
-              <div class="form-group form-field-animation">
-                <label for="message">Mensaje</label>
-                <textarea class="form-control" id="message" name="mensaje" rows="4" required></textarea>
-                <span class="focus-border"></span>
-              </div>
-              
-              <button type="submit" class="btn-submit" id="send" onclick="validate(form.email.value)">
-                <span>Enviar mensaje</span>
-                <i class="fas fa-paper-plane"></i>
-              </button>
-            </form>
+            </div>
           </div>
-          
-          <div class="col-lg-5 offset-lg-1">
-            <div class="contact-info">
-              <h3 class="info-title">Información de contacto</h3>
-              
-              <div class="info-item">
-                <div class="info-icon">
-                  <i class="fas fa-map-marker-alt"></i>
-                </div>
-                <div class="info-content">
-                  <h4>Dirección</h4>
-                  <p>Rosa Esmeralda 48, Molino de Rosas, Alvaro Obregon, Ciudad de México.</p>
-                </div>
+        </div>
+        <div class="footer-bottom">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="footer-logo">
+                <img src="https://a7s1.c21.e2-7.dev/pakal/logo%2Ficon-white.png" alt="Pakal Soluciones">
+                <span>Pakal Soluciones</span>
               </div>
-              
-              <div class="info-item">
-                <div class="info-icon">
-                  <i class="fab fa-whatsapp"></i>
-                </div>
-                <div class="info-content">
-                  <h4>WhatsApp</h4>
-                  <p><a href="https://api.whatsapp.com/send?phone=525568711608" target="_blank">+52 55 6871 1608</a></p>
-                </div>
+            </div>
+            <div class="col-md-6">
+              <div class="footer-links">
+                <a href="#--a1">Inicio</a>
+                <a href="#---servicios">Servicios</a>
+                <a href="#---proyectos">Proyectos</a>
+                <a href="#---precios">Paquetes</a>
+                <a href="#--tecnologias">Tecnologías</a>
               </div>
-              
-              <div class="info-item">
-                <div class="info-icon">
-                  <i class="fas fa-envelope"></i>
-                </div>
-                <div class="info-content">
-                  <h4>Correo electrónico</h4>
-                  <p><a href="mailto:emmanuel@pakal.cloud">emmanuel@pakal.cloud</a></p>
-                </div>
-              </div>
-              
-              <div class="social-links">
-                <a href="https://www.facebook.com/profile.php?id=100089075147230" target="_blank" class="social-link">
-                  <i class="fab fa-facebook-f"></i>
-                </a>
-                <a href="https://www.instagram.com/technologies_solutions_pakal" target="_blank" class="social-link">
-                  <i class="fab fa-instagram"></i>
-                </a>
+              <div class="copyright">
+                &copy; 2023 Pakal Soluciones. Todos los derechos reservados.
               </div>
             </div>
           </div>
         </div>
       </div>
-    </section>
-    <!-- -----------------------------------------------------------------------------
-    -- Footer
-    -- --------------------------------------------------------------------------- -->
-    <section id="__contacto">
-      <div class="footer_copy">
-          <div class="container">
-              <div class="column one mobile-one">
-      <div class="mcb-column-inner">
-
-        <a id="back_to_top" class="footer_button" href=""><i class="icon-up-open-big" aria-label="Back to top icon"></i></a>
-        <div class="copyright">
-          © 2023 Pakal by <a href="#" target="_blank"></a>Soluciones Tecnológicas Pakal| All Rights Reserved | Powered by team<a href="#" target="_blank"></a>
-        </div>
-
-        <ul class="social" role="navigation" aria-label="Social Menu"></ul>
-      </div>
-              </div>
-          </div>
-      </div>
-  
-      </br>
-      <div>
-          <a class="scroll-top" href="#"> <i class="fa-solid fa-chevron-up"></i></a>
-      </div>
-      </section>
+    </footer>
     </main>
 
     <div class="modal fade  modal-enviar-formulario" id="modal-enviar-formulario" tabindex="-1" role="dialog" aria-hidden="true" style="display: none;">
