@@ -1,0 +1,263 @@
+/* Estilos para el Modal de Términos y Condiciones */
+body {
+  font-family: 'Inter', sans-serif;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.terms-conditions-modal {
+  display: block !important;
+  position: relative;
+}
+
+.terms-conditions-modal .modal-dialog {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.terms-conditions-modal .modal-content {
+  border-radius: 12px;
+  border: none;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+  background: white;
+}
+
+.terms-conditions-modal .modal-header {
+  background: linear-gradient(135deg, #00ff93, #00b8ff);
+  color: white;
+  border-radius: 12px 12px 0 0;
+  padding: 1.5rem;
+  border-bottom: none;
+}
+
+.terms-conditions-modal .modal-header .modal-title {
+  font-weight: 600;
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+.terms-conditions-modal .modal-header .close {
+  color: white;
+  opacity: 0.8;
+  font-size: 1.5rem;
+  background: none;
+  border: none;
+  padding: 0;
+  margin: 0;
+  line-height: 1;
+}
+
+.terms-conditions-modal .modal-header .close:hover {
+  opacity: 1;
+}
+
+.terms-conditions-modal .modal-body {
+  padding: 2rem;
+  max-height: 60vh;
+  overflow-y: auto;
+}
+
+.terms-content {
+  color: #333;
+  line-height: 1.6;
+}
+
+.terms-section {
+  margin-bottom: 2rem;
+}
+
+.terms-section h5 {
+  color: #00b8ff;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid #f0f0f0;
+}
+
+.terms-section p {
+  margin-bottom: 1rem;
+  color: #555;
+}
+
+.terms-section ul {
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+  padding-left: 0;
+}
+
+.terms-section li {
+  margin-bottom: 0.5rem;
+  color: #666;
+  list-style-type: disc;
+  margin-left: 1.5rem;
+}
+
+.terms-section li strong {
+  color: #333;
+}
+
+.terms-conditions-modal .modal-footer {
+  background-color: #f8f9fa;
+  border-radius: 0 0 12px 12px;
+  padding: 1.5rem 2rem;
+  border-top: 1px solid #e9ecef;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.justify-content-between {
+  justify-content: space-between;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.form-check {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.form-check-input {
+  width: 18px;
+  height: 18px;
+  margin: 0;
+}
+
+.form-check-input:checked {
+  background-color: #00ff93;
+  border-color: #00ff93;
+}
+
+.form-check-label {
+  font-size: 0.9rem;
+  color: #333;
+  margin: 0;
+  cursor: pointer;
+}
+
+.btn {
+  padding: 0.5rem 1.5rem;
+  border-radius: 8px;
+  font-weight: 500;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.btn-primary {
+  background: linear-gradient(135deg, #00ff93, #00b8ff);
+  color: white;
+}
+
+.btn-primary:hover {
+  background: linear-gradient(135deg, #00e085, #00a5e6);
+  transform: translateY(-1px);
+}
+
+.btn-primary:disabled {
+  background: #ccc;
+  cursor: not-allowed;
+  transform: none;
+}
+
+.btn-secondary {
+  background-color: #6c757d;
+  color: white;
+}
+
+.btn-secondary:hover {
+  background-color: #5a6268;
+  transform: translateY(-1px);
+}
+
+.mr-2 {
+  margin-right: 0.5rem;
+}
+
+/* Scrollbar personalizada para el modal */
+.terms-conditions-modal .modal-body::-webkit-scrollbar {
+  width: 6px;
+}
+
+.terms-conditions-modal .modal-body::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 3px;
+}
+
+.terms-conditions-modal .modal-body::-webkit-scrollbar-thumb {
+  background: linear-gradient(135deg, #00ff93, #00b8ff);
+  border-radius: 3px;
+}
+
+.terms-conditions-modal .modal-body::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(135deg, #00e085, #00a5e6);
+}
+
+/* Animación de carga */
+.loading {
+  opacity: 0.7;
+  pointer-events: none;
+}
+
+.loading::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 20px;
+  height: 20px;
+  margin: -10px 0 0 -10px;
+  border: 2px solid #f3f3f3;
+  border-top: 2px solid #00ff93;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* Responsivo */
+@media (max-width: 768px) {
+  body {
+    padding: 10px;
+  }
+  
+  .terms-conditions-modal .modal-dialog {
+    max-width: 95%;
+  }
+  
+  .terms-conditions-modal .modal-body {
+    padding: 1rem;
+    max-height: 50vh;
+  }
+  
+  .terms-conditions-modal .modal-footer {
+    padding: 1rem;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .d-flex.justify-content-between {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .btn {
+    width: 100%;
+    margin: 0;
+  }
+}
